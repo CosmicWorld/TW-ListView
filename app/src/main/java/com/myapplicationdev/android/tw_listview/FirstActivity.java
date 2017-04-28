@@ -23,7 +23,6 @@ public class FirstActivity extends AppCompatActivity {
 
         lv = (ListView)findViewById(R.id.lvModules);
 
-
         al = new ArrayList<String>();
         al.add("Year 1");
         al.add("Year 2");
@@ -41,9 +40,6 @@ public class FirstActivity extends AppCompatActivity {
                 intent.putExtra("year",selectedYear.toString());
 
                 startActivity(intent);
-
-
-
             }
         });
     }

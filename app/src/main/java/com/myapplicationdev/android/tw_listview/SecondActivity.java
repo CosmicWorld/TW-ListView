@@ -32,7 +32,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent i = getIntent();
         String year = i.getStringExtra("year");
         tvYear.setText(year);
-
+//
         if(year.equals("Year 1")) {
             modules.add(new Module("C108",true));
             modules.add(new Module("C100",false));
